@@ -1,0 +1,35 @@
+.block-reviews{
+	padding-top: 115px;
+	padding-bottom: 80px;
+	text-align: center;
+	background: url('../img/bg-clients.jpg') no-repeat center/cover;
+	.client{
+		float: left;
+		width: 33.33%;
+		padding: 0 30px;
+		color: $light-grey;
+		font-size: 16px;
+		font-weight: 400;
+		
+		&-name{
+			font-size: 22px;
+
+			color: $white;
+			margin-top: 25px;
+			margin-bottom: 10px;
+		}
+		&-position{
+			color: $red;
+			font-weight: 500;
+			margin-bottom: 35px;
+		}
+
+      
+	}
+	.logo-partners{
+		margin-top: 70px;
+		img{
+			padding: 0 40px;
+		}
+	}
+}

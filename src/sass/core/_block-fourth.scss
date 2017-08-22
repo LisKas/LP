@@ -1,0 +1,24 @@
+.block-fourth{
+	position: relative;
+	padding-top: 100px;
+	paddtin-bottom:100px;
+	text-align: center;
+	background-color: #f6f5f3;
+	min-height: 785px;
+	background: $color-background url(../img/browser.png) no-repeat center bottom;
+
+	/*&:before{
+		position:absolute;
+		content: '';
+		background-image: url('../img/browser.png');
+		background-size: cover;
+		width: 820px;
+		height: 350px;
+	    bottom:0;
+		left:calc(50% - 410px) ;
+	}*/
+	.text{
+		padding: 0 250px;
+		
+	}
+}

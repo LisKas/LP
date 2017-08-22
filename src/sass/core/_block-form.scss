@@ -1,0 +1,45 @@
+.block-form{
+	padding: 90px 0;
+	text-align: center; 
+	background-color: $blue;
+	color: $white;
+	.title{
+		color: $white;
+	}
+	form{
+     margin-top: 80px;
+		input, button{
+		padding: 15px;
+		color: $white;
+		background-color: rgba(255,255,255 ,.05);
+		border:1px solid rgba(255,255,255, .8);
+		border-radius: 3px;
+		margin: 20px;
+
+	}
+    button{
+    	position: relative;
+    	background-color: $red;
+    	border:none;
+    	cursor: pointer;
+    	width: 227px;
+    	&::before{
+    		position: absolute;
+		    content: ' 30 days free trial for all';
+		    background: url(../img/arrow.png) no-repeat 0 0;
+		    width: 225px;
+		    height: 59px;
+		    top: -60px;
+		    left: 0;
+    	}
+    }
+    p{
+    	margin-top: 45px;
+    	font-size: 16px;
+    	font-weight: 300;
+    }
+
+	
+}
+	
+}

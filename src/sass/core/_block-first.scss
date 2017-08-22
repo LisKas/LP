@@ -1,0 +1,28 @@
+.block-first{
+	position: relative;
+	padding-top: 185px;
+	padding-bottom: 170px;
+	&::before{
+		position:absolute;
+		content: '';
+    
+        border-right: 500px solid $red;
+        border-top: 699px solid transparent; 
+        top:0;
+        right: 0;
+        z-index:-1;
+
+	}
+	&::after{
+		position:absolute;
+		content: '';
+		border-left: 500px solid $decor-grey;
+        border-bottom: 700px solid transparent;
+        top:0;
+        right: 0;
+        z-index:-1;
+	}
+	.description{
+      width: 540px;
+	}
+}

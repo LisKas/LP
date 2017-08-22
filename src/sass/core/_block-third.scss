@@ -1,0 +1,21 @@
+.block-third{
+	position: relative;
+	padding-top: 90px;
+	padding-bottom: 100px;
+	&::before {
+		position:absolute;
+		content:'';
+	    border-left: 700px solid $red;
+        border-top: 700px solid transparent;
+		height: 100%;
+		z-index: -1;
+		top:-50px;
+		left: 0;
+	
+	}
+	.description{
+		float:right;
+		width: 500px;
+		padding-left: 60px;
+	}
+}

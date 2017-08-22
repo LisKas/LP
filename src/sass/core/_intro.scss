@@ -1,0 +1,14 @@
+.intro{
+	height: 100vh;
+	background: url('../img/bg-intro.jpg') no-repeat center center/cover;
+	text-align: center;
+	padding-top: 200px;
+	padding-bottom:220px;
+	p{
+		font-size: 14px;
+		font-weight: 400;
+		color: $grey;
+		margin-top: 18px; 
+	}
+
+}
