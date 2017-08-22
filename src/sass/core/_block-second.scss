@@ -8,11 +8,18 @@
 		width: 33.33%;
 		padding: 0 20px;
 		margin-top: 45px;
+	&:hover img{
+        transform:scale(1.2);
+        filter: grayscale(0);
+	}	
 		.heading{
 			margin-top: 25px;
 			font-size: 22px;
 			font-weight: 500;
 			color: $black;
+		}
+		img{
+			filter: grayscale(1);
 		}
 	}
 }

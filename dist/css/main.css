@@ -153,11 +153,24 @@ ul {
   margin-top: 45px;
 }
 
+.block-second .col33:hover img {
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
 .block-second .col33 .heading {
   margin-top: 25px;
   font-size: 22px;
   font-weight: 500;
   color: #282828;
+}
+
+.block-second .col33 img {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
 }
 
 .block-third {
@@ -188,6 +201,7 @@ ul {
   padding-bottom: 80px;
   text-align: center;
   background: url("../img/bg-clients.jpg") no-repeat center/cover;
+  background-attachment: fixed;
 }
 
 .block-reviews .client {
@@ -218,6 +232,12 @@ ul {
 
 .block-reviews .logo-partners img {
   padding: 0 40px;
+}
+
+.block-reviews .logo-partners img:hover {
+  -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+          transform: scale(1.3);
 }
 
 .block-fourth {
